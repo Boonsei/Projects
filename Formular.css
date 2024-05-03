@@ -1,0 +1,49 @@
+body{
+  background-color: rgb(69, 68, 68);
+  margin-top:80px;
+}
+
+.flex-container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feld-container{
+  padding:20px 20px 20px 20px;
+  background-color: white;
+  border-radius:5px;
+}
+
+input{
+  width:180px;
+  height:50px;
+  padding-left: 10px;
+  color:rgb(0, 0, 0);
+}
+
+button{
+  height:56px;
+  width:80px;
+  color:rgb(55, 55, 55);
+  cursor:pointer;
+}
+
+input,button{
+  border-radius:5px;
+  border-style:solid;
+  border-color:rgb(193, 193, 193);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+

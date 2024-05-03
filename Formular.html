@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="Formular.js"></script>
+  <link rel="stylesheet" href="Formular.css">
+</head>
+<body>
+  <div class="flex-container">
+    <div class="feld-container">
+      <input type="text" placeholder="E-Mail" id="input-value" onkeydown="checkEnterKey(event)">
+      <button onclick="emailCheck()">submit</button>
+    </div>
+  </div>
+
+  <div class="modal" id="myModal">
+    <p id="modalMessage"></p>
+    <button onclick="closeModal()">OK</button>
+  </div>
+
+</body>
+</html>
