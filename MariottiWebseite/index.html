@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mariotti</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/home.css" />
+    <script src="script/home.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="img/HeroSectionCurved.png" alt="" class="hero-img" />
+      <img src="img/Mobile Hero.png" alt="" class="mobile-img" />
+      <div class="nav-container">
+        <div class="nav-flex">
+          <div class="nav-left">Giuseppe Mariotti</div>
+          <div class="nav-right">
+            <div class="menu-item" id="biography">
+              <div>Bio</div>
+              <div class="japan-nav-txt">プロフィール</div>
+            </div>
+            <div class="menu-item" id="masterclass">
+              <div>Masterclass</div>
+              <div class="japan-nav-txt">マスタークラス</div>
+            </div>
+            <div class="menu-item" id="music">
+              <div>Music</div>
+              <div class="japan-nav-txt">音楽</div>
+            </div>
+            <div class="menu-item" id="contact">
+              <div>Contact</div>
+              <div class="japan-nav-txt">コンタクト</div>
+            </div>
+          </div>
+          <div class="hamburger-menu" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="bio-section">
+      <div class="bio-subhead">Biography</div>
+      <div class="bio-flex">
+        <div class="bio-left">
+          <div class="bio-head">Giuseppe Mariotti</div>
+          <div class="bio-txt">
+            <div class="ipad-flex">
+              <div>
+                <div class="sm-bio-flex">
+                  <p>
+                    Giuseppe Mariotti is a pianist whose performances reveal a
+                    deep connection to the emotional and technical layers of
+                    music. His acclaimed recordings, especially his masterful
+                    interpretation of Ferruccio Busoni’s complete piano works,
+                    have established him as a leading figure in both classical
+                    and contemporary music circles. His ability to balance
+                    precision with profound expressiveness sets him apart.
+                  </p>
+                  <img src="img/Bio-pic.png" alt="" class="sm-bio-pic" />
+                </div>
+                <p>
+                  At just 14 years old, Mariotti made his debut as a soloist,
+                  and his career has since taken him to the world’s most
+                  prestigious stages, from Europe to the U.S. and Asia. Whether
+                  performing in the historic temples of Kyoto or the grand
+                  concert halls of Vienna, his playing consistently captivates
+                  both audiences and critics with its clarity and depth.
+                </p>
+              </div>
+              <img src="img/Bio-pic.png" alt="" class="ipad-bio-pic" />
+            </div>
+
+            <p>
+              Trained in Vienna, Mariotti’s journey has led him to Japan, where
+              he serves as Dean and Professor at Tokushima Bunri University. His
+              influence extends beyond the concert stage—he is a frequent juror
+              at international competitions and has shared his insights in a
+              popular column for Yamaha Music Japan.
+            </p>
+
+            <p>
+              <em
+                >Eager to uncover more about his extraordinary career and
+                artistic vision?</em
+              >
+            </p>
+          </div>
+        </div>
+        <img src="img/Bio-pic.png" alt="" class="bio-pic" />
+      </div>
+      <div class="btn-center2">
+        <div class="btnshell2" onclick="goToBio()">
+          <button class="btnstyle2">Read More</button>
+        </div>
+      </div>
+    </section>
+    <div class="divider"></div>
+    <section id="masterclass-section">
+      <div class="mc-head-flex">
+        <div class="orange-heading">
+          <div class="sec-heading">Masterclass</div>
+          <div class="sec-heading-border"></div>
+        </div>
+      </div>
+      <div class="masterclass-container">
+        <!-- Der oberste Masterclass termin -->
+        <div class="masterclass-text-container">
+          <div
+            class="mc-left"
+            onclick="window.location.href='https://www.musikseminar.at/en/masterclasses-winter/schedule?view=class&id=1246'"
+          >
+            <div class="mc-text-head">
+              Vienna, university for music, Wiener Musikseminar
+            </div>
+            <div class="mc-text-head-jp">
+              ウィーン, 音楽の大学, ウィーン音楽セミナー
+            </div>
+          </div>
+          <div class="mc-right">
+            <div class="mc-date">August 7-16, 2024</div>
+            <div class="mc-date-jp">2024年8月7日〜16日</div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <!-- Der mittlere Masterclass termin -->
+        <div class="masterclass-text-container">
+          <div
+            class="mc-left"
+            onclick="window.location.href='https://www.musikseminar.at/en/masterclasses-winter/schedule?view=class&id=1246'"
+          >
+            <div class="mc-text-head">Japan, Tokyo Musical Uni</div>
+            <div class="mc-text-head-jp">
+              ウィーン, 音楽の大学, ウィーン音楽セミナー
+            </div>
+          </div>
+          <div class="mc-right">
+            <div class="mc-date">August 7-16, 2024</div>
+            <div class="mc-date-jp">2024年8月7日〜16日</div>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <!-- Der unterste Masterclass termin -->
+        <div class="masterclass-text-container">
+          <div
+            class="mc-left"
+            onclick="window.location.href='https://www.musikseminar.at/en/masterclasses-winter/schedule?view=class&id=1246'"
+          >
+            <div class="mc-text-head">Italiano Universidad</div>
+            <div class="mc-text-head-jp">
+              ウィーン, 音楽の大学, ウィーン音楽セミナー
+            </div>
+          </div>
+          <div class="mc-right">
+            <div class="mc-date">August 7-16, 2024</div>
+            <div class="mc-date-jp">2024年8月7日〜16日</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="divider"></div>
+    <section id="music-section">
+      <div class="msc-title">
+        <div class="head-containment">
+          <div class="sec-heading">Music</div>
+          <div class="sec-heading-border"></div>
+        </div>
+      </div>
+      <div class="yt-container">
+        <div class="iframe-container">
+          <iframe
+            width="100%"
+            height="auto"
+            src="https://www.youtube-nocookie.com/embed/-s2olJBZTQI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            class="iframe-screen"
+          >
+          </iframe>
+        </div>
+        <div class="yt-head">Ferruccio Busoni: Toccata K.287</div>
+        <div class="yt-body">
+          Recorded at the Music Faculty of the Tokushima Bunri University on
+          April 1, 2024, on a 1999 Bösendorfer Imperial.
+        </div>
+        <div></div>
+      </div>
+      <div class="yt-container">
+        <div class="iframe-container">
+          <iframe
+            width="100%"
+            height="800"
+            src="https://www.youtube-nocookie.com/embed/qKBKQtASmm4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+        <div class="yt-head">
+          Beethoven, Sonata Op.53 - How to perform the octave glissando. English
+          subtitles.
+        </div>
+        <div class="yt-body">
+          English subtitles available. Recorded at the Music Faculty of the
+          Tokushima Bunri University of Tokushima, Japan
+        </div>
+      </div>
+      <div class="btn-center music-gap">
+        <div class="btnshell2">
+          <button
+            class="btnstyle2"
+            onclick="window.location.href='https://www.youtube.com/channel/UC8lxSQXY8PIDZ3FhuyE_bVA'"
+          >
+            <i class="fa fa-youtube-play"></i>
+            My Channel
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="divider"></div>
+    <section id="gallery-section">
+      <div class="head-containment">
+        <div class="sec-heading">Gallery</div>
+        <div class="sec-heading-border"></div>
+      </div>
+      <div class="gallery-container">
+        <div class="gallery-row">
+          <div class="img-flex">
+            <img
+              src="img/Gallery/Giuseppe Mariotti 11-2016-topaz 2.jpg"
+              alt=""
+            />
+            <div class="img-txt">Orchestra rehearsal in Tokyo, 2019</div>
+          </div>
+          <div class="img-flex">
+            <img src="img/Gallery/Jury Minsk Competition 1994 X.jpg" alt="" />
+            <div class="img-txt">
+              Jury member at the 1st Minsk International Piano Competition, 1995
+            </div>
+          </div>
+        </div>
+        <div class="gallery-row">
+          <div class="img-flex">
+            <img
+              src="img/Gallery/Giuseppe Mariotti am Klavier_edit 1.jpg"
+              alt=""
+            />
+            <div class="img-txt">Solo recital in Milano, Italy, 1998</div>
+          </div>
+          <div class="img-flex">
+            <img src="img/Gallery/Mariotti Imperial Tokyo_small 1.jpg" alt="" />
+            <div class="img-txt">Solo recital in Osaka, 2009</div>
+          </div>
+        </div>
+        <div class="gallery-row">
+          <div class="img-flex">
+            <img src="img/Gallery/Bologna 1996.jpg" alt="" />
+            <div class="img-txt">
+              Solo recital in Bologna, Teatro Comunale, 1990
+            </div>
+          </div>
+          <div class="img-flex">
+            <img src="img/Gallery/Wien Debut 1987 X.jpg" alt="" />
+            <div class="img-txt">
+              Orchestra debut in Vienna, Brahmssaal, 1987
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="divider"></div>
+    <section id="contact-section">
+      <div class="contact-flex">
+        <div>
+          <div class="contact-head">Contact me here</div>
+          <a
+            class="contact-link email-link"
+            href="mailto:c&#111;&#110;t&#97;&#99;t&#64;m&#97;&#114;i&#111;&#116;&#116;i&#46;a&#116;"
+          >
+            c&#111;&#110;t&#97;&#99;t&#64;m&#97;&#114;i&#111;&#116;&#116;i&#46;a&#116;
+          </a>
+        </div>
+        <div>
+          <div class="contact-head">Or find my work on</div>
+          <div class="link-container">
+            <div
+              class="link-flex"
+              onclick="window.location.href='https://www.youtube.com/@mariottipiano'"
+            >
+              <img
+                src="img/SocialMediaSVG/2959742_broadcast_google_streaming_video_youtube_icon.svg"
+                alt=""
+                class="social-icon"
+              />
+              <div class="contact-link">Youtube</div>
+            </div>
+          </div>
+          <div class="link-container">
+            <div
+              class="link-flex"
+              onclick="window.location.href='https://www.instagram.com/mariottipiano/'"
+            >
+              <img
+                src="img/SocialMediaSVG/2959748_instagram_photo_share_icon.svg"
+                alt=""
+                class="social-icon"
+              />
+              <div class="contact-link">Instagram</div>
+            </div>
+          </div>
+          <div class="link-container">
+            <div
+              class="link-flex"
+              onclick="window.location.href='https://www.facebook.com/mariottipiano'"
+            >
+              <img
+                src="img/SocialMediaSVG/2959749_facebook_icon.svg"
+                alt=""
+                class="social-icon"
+              />
+              <div class="contact-link">Facebook</div>
+            </div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-flex">
+        <div class="footer-text">
+          Copyright © 2024 Giuseppe Mariotti All rights reserved
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

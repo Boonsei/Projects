@@ -1,0 +1,228 @@
+.nav-container {
+  border-bottom-color: #252525;
+  background-color: #100d09;
+}
+.bio-section {
+  margin-top: 220px;
+  margin-bottom: 120px;
+}
+#contact-section {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.deutsch-txt {
+  display: none;
+}
+.sec-heading {
+  display: none;
+}
+.sec-heading.active {
+  display: block;
+}
+.bio-japanese {
+  font-size: 3rem;
+}
+.head-flex {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.lang-btn {
+  background-color: #2e271f;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.lang-btn:hover,
+.lang-btn:active {
+  background-color: #413930;
+  cursor: pointer;
+}
+.btn-inhalt {
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  width: fit-content;
+  padding: 8px 10px;
+  padding-right: 20px;
+  gap: 8px;
+  cursor: pointer;
+}
+.btn-inhalt.active {
+  display: flex;
+}
+.btn-inhalt div {
+  font-family: "Inter";
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.btn-japanese {
+  font-size: 1.2rem;
+}
+.flag-img {
+  width: 30px;
+}
+.dropdown-arrow {
+  border-bottom: 2px solid #eaeaea;
+  border-right: 2px solid #eaeaea;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg) translateY(-50%);
+  transform-origin: right;
+  margin-top: 12px;
+}
+.lang-list {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 70px;
+  flex-direction: column;
+  background-color: #2e271f;
+  display: none;
+  border-radius: 20px;
+}
+.lang-list.active {
+  display: flex;
+}
+.lang-row {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px #413930;
+  padding: 14px 20px;
+  gap: 20px;
+  cursor: pointer;
+}
+.lang-row:hover,
+.lang-row:active {
+  background-color: #413930;
+}
+.lang-row:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.lang-row:first-child {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.lang-txt {
+  border: none;
+  font-family: "Inter";
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.lang-list img {
+  width: 26px;
+}
+.btn-deutsch,
+.btn-japanese,
+.btn-italiano {
+  display: none;
+}
+.bio-txt.active {
+  display: block;
+}
+.bio-txt {
+  display: none;
+}
+.detail-bio-pic {
+  width: 100%;
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  .bio-section {
+    margin-top: 180px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bio-section {
+    margin-top: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bio-section {
+    margin-top: 120px;
+  }
+}
+
+@media (max-width: 425px) {
+  .bio-section {
+    margin-top: 90px;
+  }
+  .head-flex {
+    margin-bottom: 40px;
+  }
+  .btn-inhalt {
+    padding: 6px 8px;
+    padding-right: 16px;
+    gap: 4px;
+  }
+  .flag-img {
+    width: 22px;
+  }
+  .dropdown-arrow {
+    width: 7px;
+    height: 7px;
+    margin-top: 9px;
+  }
+  .lang-list {
+    margin-top: 60px;
+  }
+  .lang-row {
+    padding: 9px 14px;
+    gap: 24px;
+  }
+  .lang-txt {
+    font-size: 2rem;
+  }
+  .lang-row:first-child {
+    padding-top: 14px;
+  }
+  .lang-row:last-child {
+    padding-bottom: 14px;
+  }
+  .bio-japanese {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .btn-inhalt {
+    padding: 5px 6px;
+    padding-right: 14px;
+    gap: 3px;
+  }
+  .flag-img {
+    width: 20px;
+  }
+  .dropdown-arrow {
+    width: 6px;
+    height: 6px;
+    margin-top: 9px;
+  }
+  .lang-txt {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .btn-inhalt div {
+    font-family: "Inter";
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .head-flex {
+    margin-bottom: 30px;
+  }
+  .bio-japanese {
+    font-size: 2.2rem;
+  }
+  .btn-jp-txt {
+    font-size: 1.3rem;
+  }
+}
