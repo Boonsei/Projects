@@ -384,9 +384,6 @@ section {
   color: #956637;
   text-decoration: underline;
 }
-.email-link:hover{
-  text-decoration:line-through;
-}
 .footer-flex {
   display: flex;
   justify-content: space-around;

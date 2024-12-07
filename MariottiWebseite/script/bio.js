@@ -37,7 +37,11 @@ document.getElementById("hamburger").addEventListener("click", toggleMenu);
 document.querySelector(".lang-btn").addEventListener("click", function (event) {
   event.stopPropagation();
   const langList = document.querySelector(".lang-list");
-  langList.classList.add("active");
+  if (langList.classList.contains("active")) {
+    langList.classList.remove("active");
+  } else {
+    langList.classList.add("active");
+  }
 });
 document.querySelectorAll(".lang-row").forEach((item) => {
   const itemLang = item.id;
@@ -62,7 +66,7 @@ document.querySelectorAll(".lang-row").forEach((item) => {
   });
 });
 window.onclick = function (event) {
-  if (!event.target.matches(".lang-btn")) {
+  if (!event.target.matches(".lang-list")) {
     document.querySelector(".lang-list").classList.remove("active");
   }
 };
