@@ -257,6 +257,7 @@ section {
 }
 .mc-date-jp {
   font-size: 1.4rem;
+  text-align: right;
 }
 .btn-center {
   display: flex;
